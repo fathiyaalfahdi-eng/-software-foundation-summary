@@ -1,0 +1,1026 @@
+Software Development Life Cycle (SDLC) 
+
+
+Part A: Research the 6 Phases 
+
+Analysis Phase 
+
+ 
+• Define the main goal of this phase. 
+
+Understanding the business requirements and determining what the system must do to meet users’ needs. 
+
+ 
+• Identify at least 3 roles involved (e.g., Product Owner, Business Analyst, Project Manager). 
+
+Product Owner:  plays a crucial role in ensuring that the business requirements are clearly understood, documented, and prioritized for the development team. 
+
+ 
+
+Business Analyst: plays a critical role during the Analysis Phase — one of the most important stages where project requirements are clearly defined and documented.  
+
+ 
+
+Project Manager:  As a Project Manager (PM), your role during the analysis phase involves managing requirements gathering, validation, documentation, and stakeholder alignment to ensure the project moves into design with clear, approved objectives. 
+
+ 
+• List 2 real tools or techniques used (e.g., JIRA, interviews, requirement 
+workshops). 
+
+JIRA – A popular tool used for tracking requirements, managing tasks, and monitoring progress throughout the software development lifecycle. 
+
+1-Scrum and Kanban Boards – 
+These visual boards help teams manage and track work. 
+
+Scrum boards are used for sprint-based development. 
+
+Kanban boards focus on continuous workflow and limiting work in progress. 
+
+2-JIRA Query Language (JQL) – 
+A powerful search and filtering tool that allows users to create custom queries to find issues based on specific criteria (e.g., status, assignee, project, or due date). 
+
+ 
+
+Interviews – A technique where analysts meet with stakeholders to gather detailed information about their needs, expectations, and system requirements. 
+
+1-Structured Interviews – This technique uses a set of predefined, consistent questions asked to every candidate. It helps reduce bias and ensures fair comparison between candidates. 
+
+2-STAR Technique (Situation, Task, Action, Result) – This is used to assess a candidate’s past behavior and problem-solving skills. Interviewers ask candidates to describe specific situations where they 
+
+ 
+
+requirement workshops: 
+
+1-Brainstorming – A collaborative technique where participants share ideas freely to identify possible requirements, solutions, or system features. It encourages creativity and helps uncover hidden or innovative requirements. 
+
+2-Use Case Modeling – A technique that uses use case diagrams and descriptions to define how users (actors) interact with the system. It helps visualize functional requirements and clarify user needs. 
+
+ 
+
+• Explain how missing requirements can affect the entire SDLC. 
+
+Missing requirements can have major negative effects on the entire Software Development Life Cycle (SDLC) — from planning all the way to maintenance. Here’s a clear breakdown of how this happens at each phase: 
+
+1. Requirements Phase 
+
+Impact: The most direct effect occurs here. Missing or incomplete requirements mean the team doesn’t fully understand what the system should do. 
+
+Result: Ambiguity and wrong assumptions form the foundation of the project. 
+
+Example: A missing requirement for a specific security feature leads to it never being planned or designed. 
+
+2. Design Phase 
+
+Impact: Designers create system architecture and models based on incomplete requirements. 
+
+Result: The design may not support critical functionalities or may include unnecessary components. 
+
+Example: If a requirement for multi-user access is missed, the database might not be designed for concurrency — causing major redesign later. 
+
+3. Development (Implementation) Phase 
+
+Impact: Developers code according to the flawed design and incomplete requirements. 
+
+Result: The system might not perform as expected or may need major rework when missing features are later discovered. 
+
+Example: Developers might implement a single-user system, only to find out later it needs to support thousands of users. 
+
+4. Testing Phase 
+
+Impact: Test cases are based on available requirements. 
+
+Result: Missing requirements mean some critical functions won’t be tested — even if developers accidentally implemented them. 
+
+Example: The test team won’t test for password recovery if that requirement was never documented. 
+
+5. Deployment Phase 
+
+Impact: The system is released without fully meeting the users’ real needs. 
+
+Result: Users report missing functionality or poor usability soon after launch. 
+
+Example: Customers complain that the system doesn’t allow mobile access, though they expected it. 
+
+6. Maintenance Phase 
+
+Impact: Fixing missing requirements after release is costly and time-consuming. 
+
+Result: More bug fixes, patches, and updates are needed — increasing maintenance costs and reducing user trust. 
+
+Example: Adding missed features post-launch may require rewriting core parts of the system. 
+
+• Find one real-world example (from a company or project) that faced analysis- 
+related issues. 
+
+ 
+Omantel’s ERP implementation, which academic case studies show ran into analysis-related problems during its SDLC (especially in the requirements/analysis and design phases). 
+
+What happened (summary) 
+
+The Omantel ERP project had to integrate many disparate legacy systems and adapt the ERP to local business processes (including localization/Arabization). That made requirements capture and system-design complex and error-prone. ResearchGate 
+
+The literature points to problems typical of poor requirements/analysis work in large Omani IT initiatives (e-government and health projects too): unclear or changing requirements, inadequate stakeholder/requirements engineering, and difficulty aligning technical design with organizational processes — all causes of delays, rework and partial failures. Newcastle University eTheses+1 
+
+Why this counts as an “analysis-related issue” 
+
+Integrating legacy systems required deep, accurate analysis of existing data and processes — gaps or mistakes there forced extensive rework and customization. 
+
+Localization and stakeholder expectations increased requirements of volatility, making the analysis phase longer and more error-prone. ResearchGate 
+
+Sources you can read (quick) 
+
+ERP implementation in Omantel: a case study — detailed case study of the project, its environmental/requirements challenges and lessons learned. ResearchGate 
+
+Theses and papers on Oman e-government implementations — discuss how weak requirements engineering has caused delays/partial failures across public IT projects in Oman. Newcastle University eTheses+1 
+
+ 
+
+2. Design Phase 
+
+ 
+• Describe the main outputs (deliverables) of this phase. 
+
+1. System Design Specification (SDS) / Design Document 
+
+A comprehensive document that details the overall system architecture and design decisions. 
+
+It serves as the main reference for developers during the implementation phase. 
+
+2. Architecture Design 
+
+Describes the overall structure of the system (e.g., client-server, layered, or cloud-based architecture). 
+
+Specifies major system components, their interactions, and data flow between them. 
+
+3. Database Design 
+
+Defines how data will be stored, organized, and accessed. 
+
+Includes: 
+
+Entity-Relationship Diagrams (ERD) 
+
+Database schema (tables, keys, relationships) 
+
+Data dictionary 
+
+4. Interface Design 
+
+Specifies how users will interact with the system. 
+
+Includes: 
+
+User Interface (UI) mockups or prototypes 
+
+Navigation flow 
+
+Input and output formats 
+
+ 
+
+5. Detailed Program Design / Component Design 
+
+Breaks down the system into smaller modules or components. 
+
+Describes each component’s function, inputs, outputs, and interactions. 
+
+Often includes: 
+
+Pseudocode or flowcharts 
+
+Class diagrams (for object-oriented design) 
+
+6. Data Flow Diagrams (DFDs) or System Flowcharts 
+
+Visual representations of how data moves through the system. 
+
+Show processes, data stores, and data flows between system components. 
+
+7. Security and Control Specifications 
+
+Defines security measures to protect data and system access. 
+
+Includes: 
+
+Authentication and authorization requirements 
+
+Backup and recovery plans 
+
+Data encryption standards 
+
+8. Hardware and Software Specifications 
+
+Lists all required hardware, software, networks, and platforms needed for implementation. 
+
+9. Prototyping Outputs (if applicable) 
+
+Early mockups or partial versions of the system used to validate the design with stakeholders. 
+
+ 
+
+ 
+• List 2–3 tools or techniques used for software/system design (e.g., UML, Figma, Lucidchart). 
+
+UML (Unified Modeling Language) – A standardized modeling language used to visualize system architecture and design through diagrams such as class, sequence, and activity diagrams. 
+
+ 
+
+Figma – A collaborative design tool primarily used for UI/UX design, allowing designers and developers to create and prototype application interfaces. 
+
+ 
+
+Lucidchart – A cloud-based diagramming tool used to create flowcharts, system architecture diagrams, and UML diagrams for system design and documentation. 
+
+ 
+
+• Explain the difference between system design and UI/UX design. 
+
+Aspect 
+
+System Design 
+
+UI/UX Design 
+
+Focus 
+
+The structure and functionality of the entire system (how it works). 
+
+The look, feel, and experience of the system for the user (how it’s used). 
+
+Purpose 
+
+To design how system components (databases, servers, APIs, modules) interact to meet requirements. 
+
+To design how users interact with the system in an intuitive, efficient, and visually appealing way. 
+
+Scope 
+
+Backend and architecture — includes data flow, system components, security, scalability, and integration. 
+
+Frontend and user experience — includes layout, navigation, colors, typography, and usability. 
+
+Main Outputs 
+
+System architecture diagrams, data models, component designs, technical specifications. 
+
+Wireframes, mockups, prototypes, user journey maps, usability test results. 
+
+Tools Used 
+
+UML diagrams, ER diagrams, Lucidchart, Draw.io, Enterprise Architect. 
+
+Figma, Adobe XD, Sketch, InVision, Canva. 
+
+Team Involved 
+
+System architects, software engineers. 
+
+UI/UX designers, product designers, user researchers. 
+
+ 
+• Describe one example where poor design decisions increased project cost or 
+failure risk. 
+
+One example of poor design decisions increasing project cost and failure risk is the Denver International Airport (DIA) automated baggage handling system project. 
+
+Example: Denver International Airport (1990s) 
+
+Context: 
+When Denver built its new international airport in the early 1990s, the city decided to implement an automated baggage handling system intended to reduce aircraft turnaround time and improve efficiency. 
+
+Poor Design Decisions: 
+
+Overly ambitious scope: 
+The design tried to automate baggage handling for the entire airport instead of starting with a smaller pilot system. 
+
+Lack of stakeholder input: 
+Airlines, engineers, and operations staff were not sufficiently consulted during design, leading to unrealistic assumptions about workflow and equipment compatibility. 
+
+Inadequate testing and contingency planning: 
+The system was not properly tested before launch, and there were no reliable backup processes. 
+
+Consequences: 
+
+Continuous mechanical failures caused bags to be lost, damaged, or delayed. 
+
+The airport’s opening was delayed by 16 months. 
+
+The project cost ballooned by over $560 million due to redesigns, repairs, and manual labor needed to handle baggage. 
+
+ 
+
+3. Development Phase 
+
+ 
+
+• Describe what happens in this phase. 
+
+In the Development phase of the Software Development Life Cycle (SDLC), the actual coding and building of the software product takes place. This phase turns the previously defined system design and requirements into a working system. 
+
+Here’s what typically happens during the Development phase: 
+
+Setup of Development Environment 
+
+Developers prepare the tools, frameworks, and environments (e.g., servers, databases, IDEs) needed for coding. 
+
+Coding/Programming 
+
+Developers write the code according to the system design documents and requirements specifications created in earlier phases. 
+
+The system is divided into smaller modules or units, and each developer may be assigned specific components to implement. 
+
+Integration of Modules 
+
+Once individual modules are developed, they are integrated to form a complete system. 
+
+Integration testing may start to ensure modules work together as expected. 
+
+Version Control and Documentation 
+
+Developers use version control systems (like Git) to track changes and collaborate efficiently. 
+
+They also document the code and any important implementation details for future maintenance. 
+
+Unit Testing 
+
+Each module is tested independently (unit testing) to ensure it functions correctly before integration. 
+
+Code Review and Quality Assurance 
+
+Peer reviews or automated tools are used to check for code quality, security, and performance issues. 
+
+Output of the Development Phase: 
+A functional software product that meets the design specifications and is ready for formal testing in the next SDLC phase (the Testing phase). 
+
+ 
+• Identify front-end and back-end responsibilities. 
+
+Front-End Development Responsibilities 
+
+The front-end focuses on the user interface (UI) and user experience (UX) — everything the user directly interacts with. 
+
+Key Responsibilities: 
+
+Design Implementation: 
+
+Convert UI/UX designs (from tools like Figma or Adobe XD) into functional web pages or app interfaces using HTML, CSS, and JavaScript (and frameworks like React, Angular, or Vue). 
+
+User Interaction Logic: 
+
+Implement interactive features such as forms, buttons, menus, and animations. 
+
+API Integration: 
+
+Connect the front-end with back-end services using RESTful APIs or GraphQL to fetch and display data dynamically. 
+
+Responsive Design: 
+
+Ensure the application works smoothly across different devices and screen sizes. 
+
+Error Handling (Client-Side): 
+
+Manage validation, user input errors, and display appropriate messages before sending data to the server. 
+
+Performance Optimization: 
+
+Optimize load times, reduce resource usage, and improve page responsiveness. 
+
+Testing (Front-End): 
+
+Conduct unit and integration testing using frameworks like Jest, Mocha, or Cypress to ensure UI functionality. 
+
+Back-End Development Responsibilities 
+
+The back-end handles the server-side logic, database management, and application integration — everything that happens behind the scenes. 
+
+Key Responsibilities: 
+
+Server Logic Implementation: 
+
+Build and manage APIs, routes, and server functions that process client requests and send appropriate responses. 
+
+Database Management: 
+
+Design and implement database schemas; handle CRUD operations (Create, Read, Update, Delete). 
+
+Use databases such as MySQL, PostgreSQL, MongoDB, or Oracle. 
+
+Authentication & Authorization: 
+
+Implement secure user authentication, access control, and session management. 
+
+Business Logic: 
+
+Code the core functionality — calculations, workflows, and rules that drive the application’s purpose. 
+
+Integration with External Services: 
+
+Connect to third-party APIs, payment gateways, or cloud services. 
+
+Performance & Security: 
+
+Optimize queries and server performance; ensure data encryption and secure communication. 
+
+Testing (Back-End): 
+
+Perform unit, integration, and API testing using tools like Postman, JUnit, or PyTest. 
+
+ 
+• List 3 tools or technologies commonly used by developers (e.g., GitHub, VS Code, Spring Boot). 
+
+GitHub – A platform for version control and collaboration using Git. It allows developers to manage code repositories, track changes, and work together on projects. 
+
+Visual Studio Code (VS Code) – A lightweight yet powerful source code editor developed by Microsoft. It supports multiple programming languages, extensions, and debugging tools. 
+
+Spring Boot – A Java-based framework used to build and deploy web applications and microservices quickly, with minimal configuration. 
+
+ 
+• Explain why proper version control is essential in this phase. 
+
+Proper version control is essential in the development phase for several key reasons: 
+
+1. Collaboration and Teamwork 
+
+In most software projects, multiple developers work on the same codebase. 
+
+Version control systems (like Git) allow each developer to work on their own branch without interfering with others. 
+
+Changes can be merged efficiently, reducing conflicts and confusion. 
+
+ Example: Two developers can modify different parts of the same file, and Git helps merge their updates safely. 
+
+2. Tracking Changes 
+
+Every change made to the code is recorded with a timestamp, author, and message. 
+
+This provides a complete history of how the software evolved over time. 
+
+Developers can understand who changed what and why, which aids in debugging and accountability. 
+
+ Example: If a new bug appears, you can check the history to find which commit introduced it. 
+
+3. Error Recovery (Rollback & Restore) 
+
+Mistakes are inevitable in development. 
+
+Version control allows you to revert to previous versions of the code when something breaks or an experimental feature fails. 
+
+Example: If a new feature crashes the system, you can roll back to a stable commit instantly. 
+
+4. Branching and Experimentation 
+
+Developers can create branches to experiment or develop new features independently of the main code. 
+
+This allows innovation without risking the stability of the main project. 
+
+Example: You can develop a new login system in a separate branch and only merge it when tested. 
+
+5. Continuous Integration and Deployment (CI/CD) 
+
+Proper version control integrates seamlessly with CI/CD pipelines. 
+
+It automates testing, building, and deployment processes whenever new changes are committed. 
+
+ Example: Each commit can trigger automated tests before merging into the main branch. 
+
+6. Accountability and Documentation 
+
+Commit messages serve as documentation of progress. 
+
+They provide insights into why certain decisions were made and what problems were fixed. 
+
+7. Facilitates Code Reviews 
+
+Version control enables pull requests (PRs) or merge requests (MRs) where team members review code before it’s merged. 
+
+This ensures higher code quality and adherence to standards. 
+
+ 
+• Describe a real case of a software project that failed due to poor development 
+practices. 
+
+Case: Warehouse Management System (WMS) at a Higher-Education Institution in Oman 
+
+What happened: 
+
+A large WMS (Warehouse Management System) project was undertaken in a higher education institution in Oman, to manage inventory, consumables, fixed assets, and request flows. ijltet.org 
+
+The project started in September 2012 and by July 2016 (almost 4 years) it had failed — the system was abandoned / did not deliver according to expectations. ijltet.org 
+
+Despite having a professional development team (project team leader, system analysts/developers, staff representatives) the project didn’t succeed. ijltet.org 
+
+Why it failed: 
+From the study, the major failure drivers included: 
+
+Poor Requirements Engineering / User Involvement: The development team “ignored the users’ requirements”. The requirements specification was not sufficiently stable. ijltet.org 
+
+Inappropriate Methodology: The team used a traditional waterfall model, where once implementation started, new requirements emerged that forced them to go back to earlier phases. This rework destroyed progress. ijltet.org 
+
+Long Duration & Delays: A 4-year development time amplified risk that requirements changed, user expectations shifted, and the solution drifted from actual needs. ijltet.org 
+
+Lack of Adaptation / Feedback Loop: The study notes that the team, after failure, tried to adapt their future work creating “their own way of developing systems”. This indicates the initial process lacked agility. ijltet.org 
+
+Context / Additional observations relevant to Oman: 
+
+In broader studies of Omani government organisations, researchers found that many software and IS development projects suffer from “unclear user requirement”, “poor project costing”, and “limited use of methodologies”. Flylib 
+
+For example: “Senior management and users … can’t state what they want the IT system to accomplish. … The lack of knowledge about their actual requirements … resulted in many ill-defined IT systems.” Flylib 
+
+Also, “the systems analysts and designers working in Oman … in general do not follow any of the well-known western analysis and design methodologies … They simply utilise various unsound assumptions … developing systems with the help of their personal ‘know-how’. Their work is carried out by following a trial-and-error approach.” Flylib 
+
+Key lessons (derived from this case): 
+
+Early and clear user/ stakeholder involvement is critical: Without capturing and locking down user requirements (or doing continuous feedback loops), development can drift off track. 
+
+Methodology must match the environment: In a long-duration project with changing needs, a rigid waterfall model is risky; iterative or agile approaches may help. 
+
+Manage change and scope creep: The case shows major rework due to emergent requirements—scope control is vital. 
+
+Time matters: The longer the project, the more opportunity there is for requirements, environment or technology to change, increasing failure risk. 
+
+Process maturity matters: Organisations in Oman (and globally) may have immature IT governance, poor costing/pricing practices and limited methodology use — these structural factors elevate risk. 
+
+ 
+
+4. Testing Phase 
+
+ 
+• Explain the purpose of this phase. 
+
+To identify and fix defects or bugs 
+
+The main goal of testing is to find errors, defects, or inconsistencies in the software and correct them before deployment. 
+
+To verify that the software meets requirements 
+
+Testing ensures the software behaves as expected and meets the functional and non-functional requirements defined in the earlier phases (like the requirements analysis). 
+
+To validate software performance 
+
+It checks whether the system performs efficiently under various conditions (such as heavy loads, multiple users, or limited resources). 
+
+To ensure software quality 
+
+Testing verifies aspects like usability, security, compatibility, and reliability, ensuring a high-quality product for end users. 
+
+To reduce future maintenance costs 
+
+Detecting and fixing problems early is much cheaper and easier than fixing them after deployment. 
+
+To build user confidence 
+
+Thorough testing assures stakeholders that the software is stable, safe, and ready for real-world use. 
+
+ 
+• Identify 3 types of testing (e.g., unit, integration, system). 
+
+Unit Testing 
+
+Purpose: Tests individual components or functions of the code (like a single class or method). 
+
+Goal: Ensure each small piece of the program works correctly on its own. 
+
+Example: Testing a function that calculates a student’s grade based on exam scores. 
+
+Integration Testing 
+
+Purpose: Tests how different modules or components work together. 
+
+Goal: Detect interface defects between integrated units. 
+
+Example: Checking that the “grade calculation” module correctly interacts with the “student database” module. 
+
+System Testing 
+
+Purpose: Tests the entire application as a complete system. 
+
+Goal: Verify that the whole software meets the specified requirements. 
+
+Example: Testing the full student management system—from login to generating reports—to ensure everything works end-to-end. 
+
+ 
+• List 2–3 testing tools (e.g., Selenium, JMeter, Postman). 
+
+Selenium – Used for automated functional testing of web applications (mainly for UI testing). 
+
+JMeter – Used for performance and load testing to measure system behavior under stress. 
+
+Postman – Used for API testing to verify that endpoints work correctly and return expected responses. 
+
+ 
+• Explain how automated testing improves efficiency. 
+
+Faster Test Execution 
+
+Automated tests run much faster than manual testing. Once written, they can be executed repeatedly in seconds or minutes, even across large codebases. 
+
+This allows teams to test more frequently — for example, after every code change — without delaying development. 
+
+Continuous Integration & Deployment (CI/CD) 
+
+Automated tests are a key part of CI/CD pipelines. They ensure that new code changes don’t break existing functionality before being merged or deployed. 
+
+This makes it possible to release updates more often and with higher confidence. 
+
+Reduced Human Error 
+
+Manual testing can be inconsistent, especially for repetitive tasks. Automation runs tests the same way every time, ensuring reliable and repeatable results. 
+
+Improved Test Coverage 
+
+Automated testing allows more tests to be run across multiple environments, browsers, or devices — something that would be too time-consuming manually. 
+
+This leads to higher coverage and helps detect edge cases earlier. 
+
+Early Bug Detection 
+
+Automated tests can run as soon as code is written, catching defects early when they are cheaper and easier to fix. 
+
+This reduces the time and cost of debugging later in the development cycle. 
+
+Better Use of Human Resources 
+
+Testers and developers can focus on exploratory testing, usability, and complex scenarios while automation handles routine regression and smoke tests. 
+
+Consistent Feedback Loop 
+
+Automated testing provides quick feedback to developers, allowing them to identify and fix issues right away rather than waiting for manual QA cycles. 
+
+ 
+• Find one case study or article showing how testing caught critical bugs before 
+release. 
+
+Case Study: Qualitest + Medical Devices Company 
+
+Context: A medical-devices company worked with Qualitest to improve their software test lifecycle, particularly to identify vulnerabilities earlier in the development process. Qualitest Group 
+
+What they did: 
+
+They automated more than 50 % of the cybersecurity-test cases. Qualitest Group 
+
+They introduced code inspection and manual test cases for cybersecurity requirements very early (during development) rather than waiting for the post-integration test phase. Qualitest Group 
+
+They ran the cyber-security automation with every new build. Qualitest Group 
+
+The results: 
+
+Vulnerabilities were detected at early stages in the lifecycle — before release. Qualitest Group 
+
+Because of early detection, the risk of severe security failures in production was reduced. 
+
+Regression testing effort for cybersecurity dropped because the early automated tests caught many issues upstream. Qualitest Group 
+
+Why this matters: 
+
+In safety- or security-critical domains (like medical devices), early detection prevents expensive fixes, recalls, regulatory problems, or worse. 
+
+By integrating QA/test artefacts into development (code review + automated builds), the company avoided doing large-scale rework at the end-of-cycle. 
+
+The case shows how implementing test activities earlier = fewer “critical bugs escaping to later phases”. 
+
+5. Deployment Phase 
+
+ 
+• Define what deployment means in SDLC. 
+
+In the Software Development Life Cycle (SDLC), deployment refers to the process of releasing and installing a software application into a live (production) environment, where it becomes available for end users to use. 
+
+In simple terms, Deployment making the software available for actual use. 
+
+ 
+• Mention 2 deployment models (e.g., manual vs. continuous). 
+
+Manual Deployment – In this model, deployments are performed manually by developers or system administrators. It involves manually copying files, running scripts, and configuring environments. 
+
+Pros: Simple to control and verify before release. 
+
+Cons: Time-consuming and prone to human error. 
+
+Continuous Deployment (CD) – In this model, every change that passes automated testing is automatically deployed to production. It’s part of a continuous delivery pipeline. 
+
+Pros: Fast, consistent, and reduces human error. 
+
+Cons: Requires strong automated testing and monitoring to avoid releasing bugs. 
+
+ 
+• Identify 3 tools or platforms used in deployment (e.g., Jenkins, AWS, Docker). 
+
+Jenkins – 
+
+Type: Continuous Integration/Continuous Deployment (CI/CD) tool 
+
+Use: Automates building, testing, and deploying applications. It helps ensure code changes are integrated smoothly and deployed consistently. 
+
+AWS (Amazon Web Services) – 
+
+Type: Cloud computing platform 
+
+Use: Provides scalable infrastructure for deploying applications — including servers (EC2), storage (S3), and managed deployment services (Elastic Beanstalk, ECS, Lambda, etc.). 
+
+Docker – 
+
+Type: Containerization platform 
+
+Use: Packages applications and their dependencies into containers, ensuring consistent deployment across different environments. 
+
+ 
+
+ 
+• Explain how DevOps practices support this phase. 
+
+DevOps practices play a crucial role in supporting the Deployment phase of the software development lifecycle by ensuring that software can be released quickly, reliably, and repeatedly. Here’s a clear explanation of how DevOps supports this phase: 
+
+ 1. Automation of Deployment 
+
+DevOps tools such as Jenkins, GitLab CI/CD, GitHub Actions, and Azure DevOps automate the entire deployment process. 
+
+This removes manual errors, speeds up releases, and ensures consistent deployments across environments (development, testing, staging, and production). 
+
+Example: A new code commit triggers an automated pipeline that builds, tests, and deploys the application automatically. 
+
+2. Continuous Integration and Continuous Deployment (CI/CD) 
+
+Continuous Integration (CI): Automatically integrates code changes into a shared repository and tests them. 
+
+Continuous Deployment (CD): Automatically pushes tested code into production once it passes all quality checks. 
+
+This ensures faster delivery and shorter feedback loops, allowing teams to detect and fix issues early. 
+
+3. Infrastructure as Code (IaC) 
+
+Tools like Terraform, Ansible, or AWS CloudFormation allow infrastructure to be defined and managed using code. 
+
+This ensures consistency and reproducibility of environments, making deployments predictable and reducing "works on my machine" problems. 
+
+ 4. Automated Testing and Validation 
+
+Automated tests (unit, integration, performance, and security tests) run as part of the pipeline before deployment. 
+
+This ensures that only stable and reliable builds reach production, improving quality and confidence in releases. 
+
+5. Monitoring and Feedback 
+
+After deployment, DevOps integrates monitoring and logging tools like Prometheus, Grafana, or ELK Stack. 
+
+These tools track system performance and user behavior, providing real-time feedback for continuous improvement and rapid rollback if issues arise. 
+
+6. Rollback and Recovery 
+
+DevOps pipelines include automated rollback strategies (e.g., blue-green deployment, canary releases). 
+
+These practices allow quick recovery from failed deployments without affecting users significantly. 
+
+ 7. Collaboration and Communication 
+
+DevOps fosters close collaboration between development and operations teams, using shared tools and processes. 
+
+This reduces friction, improves coordination, and ensures smoother, faster deployments. 
+
+ 
+• Describe a real incident where deployment issues affected users (e.g., app crash or downtime). 
+
+Facebook Outage – October 4, 2021 
+
+What Happened 
+
+On October 4, 2021, Facebook (along with Instagram and WhatsApp) went completely offline for about six hours due to a deployment-related configuration error. 
+
+Cause 
+
+During a routine server configuration update, Facebook engineers accidentally issued a command that disconnected their data centers from the global internet. 
+
+This happened because a Border Gateway Protocol (BGP) update — which tells the internet how to reach Facebook’s servers — was incorrectly configured. 
+
+As a result, not only did Facebook’s apps go offline, but internal tools and communication systems (like company email and security badges) also stopped working, making it harder for engineers to fix the issue. 
+
+Impact on Users 
+
+Billions of users worldwide couldn’t access Facebook, Instagram, or WhatsApp. 
+
+Businesses that relied on these platforms for communication or sales lost revenue. 
+
+Users experienced failed logins, “server not found” errors, and complete service unavailability. 
+
+Resolution 
+
+Engineers had to physically access data centers to manually reset network configurations — a process that took several hours. 
+
+After restoring BGP routes and verifying internal systems, services slowly came back online. 
+
+Key Lessons 
+
+Testing configuration changes in a safe, isolated environment is critical. 
+
+Redundancy and rollback mechanisms should be in place for critical network configurations. 
+
+Communication tools should not depend on the same infrastructure they manage — Facebook couldn’t use its internal systems to coordinate fixes. 
+
+ 
+
+6. Maintenance Phase 
+
+ 
+• Define why this phase never truly ends. 
+
+The maintenance phase never truly ends because software (or any system) continues to require updates, fixes, and adjustments for as long as it is in use. 
+
+Changing user needs: 
+Users’ requirements evolve over time, so the software must be updated to stay relevant and useful. 
+
+Technological changes: 
+New hardware, operating systems, and integration tools are released regularly, requiring the software to be adapted. 
+
+Bug discovery: 
+Even after thorough testing, new bugs or security vulnerabilities can emerge during real-world use, needing continuous fixes. 
+
+Performance improvements: 
+Developers may find ways to optimize the system or improve its efficiency, reliability, or usability. 
+
+Legal and security updates: 
+Compliance standards, privacy laws, and security threats change, so maintenance is needed to keep the system safe and lawful. 
+
+ 
+• List 3 maintenance activities (e.g., bug fixing, updating libraries, performance 
+tuning). 
+
+Here are 3 common software maintenance activities: 
+
+Bug Fixing – Identifying and correcting errors or defects in the code to ensure the software functions correctly. 
+
+Updating Libraries/Dependencies – Upgrading external libraries, frameworks, or tools to newer versions for better security, compatibility, and features. 
+
+Performance Tuning – Optimizing the software’s speed, memory usage, and responsiveness to improve overall performance and user experience. 
+
+ 
+• Identify 2 tools used for tracking and maintaining systems (e.g., Jira, ServiceNow). 
+
+Jira – used for issue tracking, project management, and bug tracking. 
+
+ServiceNow – used for IT service management (ITSM), incident tracking, and workflow automation. 
+
+ 
+• Explain how user feedback influences maintenance decisions. 
+
+User feedback plays a crucial role in maintenance decisions because it provides direct insight into how people experience and interact with a product, system, or service. Here’s how it influences maintenance decisions step by step: 
+
+1. Identifying Problems Early 
+
+Feedback highlights issues users face — such as bugs, performance lags, or confusing interfaces. 
+
+This helps maintenance teams detect problems early, sometimes before technical monitoring systems notice them. 
+
+Example: Users report that an app crashes when uploading photos → developers prioritize fixing that bug in the next maintenance cycle. 
+
+2. Prioritizing Maintenance Tasks 
+
+Since resources (time, budget, staff) are limited, not all maintenance tasks can be done at once. 
+
+Frequent or severe user complaints guide teams to focus on the most critical issues first. 
+
+Example: If many users complain about slow loading times, improving performance becomes a higher priority than adding new features. 
+
+3. Improving User Satisfaction 
+
+Incorporating user feedback ensures that maintenance efforts align with user expectations. 
+
+This leads to a better user experience and strengthens customer loyalty. 
+
+ Example: Feedback shows users want a “dark mode.” Maintenance updates include this feature, increasing satisfaction. 
+
+4. Enhancing System Reliability and Usability 
+
+Feedback can uncover recurring or systemic issues (like confusing navigation or unstable servers). 
+
+Maintenance teams can then plan preventive maintenance or redesign certain components for long-term reliability. 
+
+5. Informing Future Development 
+
+Maintenance isn’t just fixing things — it’s also about continuous improvement. 
+
+User feedback helps organizations decide what upgrades, redesigns, or new features to plan for future versions. 
+
+ 
+• Describe a case where regular maintenance prevented major system failure. 
+
+Case: Preventing Turbine Failure in a Power Plant 
+
+Background: 
+A gas-fired power plant operates several large turbines that generate electricity. These turbines must run continuously for long periods, making them susceptible to wear and tear. 
+
+Preventive Action: 
+The maintenance team follows a strict preventive maintenance schedule, which includes: 
+
+Regular oil and filter changes to prevent contamination. 
+
+Vibration analysis every month to detect imbalances or bearing wear. 
+
+Infrared thermography checks to identify overheating components. 
+
+Scheduled shutdowns every six months for deep inspections and part replacements. 
+
+Incident: 
+During one of the routine vibration checks, technicians noticed a slight but unusual vibration frequency in one turbine. This early warning indicated a potential bearing misalignment — a small issue that could escalate into catastrophic failure if ignored. 
+
+Action Taken: 
+Maintenance staff immediately shut down the turbine, realigned the bearing assembly, and replaced a worn coupling. 
+
+Outcome: 
+
+The issue was resolved in one day, costing about $5,000 in parts and labor. 
+
+Engineers estimated that, without early detection, the turbine could have suffered a catastrophic bearing failure within a month — causing an outage lasting two weeks and costing over $500,000 in repairs and lost production. 
+
+ 
+
+Part B: Application — Real Product Analysis 
+
+WhatsApp 
+
+SDLC Phase 
+ 
+
+ 
+
+Analysis 
+
+User interviews and surveys 
+
+Competitor analysis (e.g., SMS, Viber, Skype) 
+
+Requirement documentation (e.g., Software Requirements Specification - SRS) 
+
+Functional requirements: 
+
+Send/receive instant messages, images, videos, voice notes, and documents. 
+
+Enable group chats and broadcast messages. 
+
+Show message delivery and read status (✓ and ✓✓). 
+
+Provide voice and video call features. 
+
+Non-functional requirements: 
+
+Must be secure, scalable, and highly available. 
+
+User interface must be simple and responsive. 
+
+Support cross-platform use (Android, iOS, Web, Desktop). 
+
+Design 
+
+Architecture design: Client-server model using end-to-end encryption (Signal Protocol). 
+
+Database design: Scalable distributed database for storing user metadata and messages. 
+
+UI/UX design: Clean interface with easy navigation (chat list, status, calls, settings). 
+
+Security design: Data encryption, authentication, and secure key exchange. 
+
+Development 
+
+Developers used languages like Erlang (for backend reliability), Java/Kotlin (Android), Swift (iOS), and React/JavaScript (Web). 
+
+Backend servers implemented message routing, synchronization, and encryption logic. 
+
+Features were developed incrementally — chat, media sharing, status updates, and calls. 
+
+ 
+
+Testing 
+
+Unit testing: Each function (e.g., sending message, login) tested individually. 
+
+Integration testing: Verify the interaction between client app and server. 
+
+Performance testing: Ensure fast delivery even under heavy load. 
+
+Security testing: Verify encryption and data protection. 
+
+User acceptance testing (UAT): Selected users test new features before release. 
+
+ 
+
+Deployment 
+
+Initial launch on iOS, followed by Android and Web. 
+
+Deployment through App Store and Google Play. 
+
+Backend servers scaled up using cloud infrastructure to handle millions of users. 
+
+Rollout of updates (like voice calls, video calls, status, communities) done gradually. 
+
+ 
+
+Maintenance 
+
+Continuous updates for bug fixes, security patches, and new features (e.g., disappearing messages, multi-device support). 
+
+Regular monitoring for performance and server uptime. 
+
+Responding to user feedback and adapting to new technologies (e.g., AI integration, privacy controls). 
+
+ 
+
+ 
