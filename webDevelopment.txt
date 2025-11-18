@@ -242,4 +242,20 @@ Full-stack development using only C# (no need for JavaScript)
 Easy to maintain and test
 
 Ideal for business applications and dashboards
+---------------------------------------------
+
+Comparison table between C#, Java, Python
+
+| Feature                 | **C#**                                                                 | **Java**                                                        | **Python**                                                              |
+| ----------------------- | ---------------------------------------------------------------------- | --------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| **Type of Language**    | Object-oriented, statically typed                                      | Object-oriented, statically typed                               | Multi-paradigm, dynamically typed                                       |
+| **Compilation Method**  | Compiled → IL (Intermediate Language) → JIT by .NET CLR                | Compiled → JVM bytecode → JIT by JVM                            | Interpreted (CPython), optional compilation in PyPy                     |
+| **Execution Speed**     | Fast (near Java; optimized by .NET JIT)                                | Fast and highly optimized                                       | Slower (dynamic typing, interpreted nature)                             |
+| **Primary Platform**    | .NET ecosystem (Windows, Linux, macOS with .NET Core/6/7/8)            | JVM (cross-platform)                                            | Cross-platform (Windows/Linux/macOS)                                    |
+| **Typical Usage**       | Web apps (ASP.NET), desktop apps, games (Unity), enterprise systems    | Enterprise systems, Android apps, backend services              | Data science, AI/ML, automation, scripting, web apps                    |
+| **Learning Curve**      | Moderate                                                               | Moderate                                                        | Easy (beginner-friendly)                                                |
+| **Syntax Complexity**   | Medium (similar to Java)                                               | Medium (verbose)                                                | Simple, clean, minimal                                                  |
+| **Memory Management**   | Automatic GC                                                           | Automatic GC                                                    | Automatic GC                                                            |
+| **Ecosystem Strengths** | .NET Framework, Unity for game development, strong Windows integration | Huge enterprise adoption, Android development, strong libraries | Rich ecosystem for AI, ML, data, automation (NumPy, Pandas, TensorFlow) |
+| **Advantages**          | - High performance                                                     |                                                                 |                                                                         |
 
