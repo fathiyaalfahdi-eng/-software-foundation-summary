@@ -20,3 +20,61 @@ Technologies may include: Node.js, Python, PHP, Java, Ruby.
 
 Stores and manages data for the website or app.
 Examples: MySQL, MongoDB, PostgreSQL.
+-------------------------------------
+
+Frontend (Client-Side)
+
+The frontend is everything the user sees and interacts with on the website. It includes the layout, colors, buttons, text, images, animations, and overall design.
+Responsibilities:
+
+Display content and user interface (UI).
+
+Handle user interactions like clicks, forms, and navigation.
+
+Communicate with the backend to send or receive data.
+
+Ensure the website looks good on different devices (responsive design).
+
+Provide a smooth and user-friendly experience.
+
+Technologies: HTML, CSS, JavaScript, React, Angular, Vue…
+
+
+Backend (Server-Side)
+
+The backend is the hidden part that runs on the server. It processes requests from the frontend and handles the core logic of the application.
+Responsibilities:
+
+Receive requests from the frontend and respond with the correct data.
+
+Handle business logic (rules and processes).
+
+Manage user authentication (login, signup).
+
+Connect to the database and retrieve or store information.
+
+Ensure security, performance, and reliability.
+
+Technologies: Node.js, Python (Django/Flask), PHP, Java, Ruby…
+
+
+Database
+
+The database stores all the information the web application uses. It keeps the data organized, secure, and accessible when needed.
+Responsibilities:
+
+Store data such as users, products, orders, posts, etc.
+
+Allow the backend to add, update, delete, or read data.
+
+Ensure data consistency and integrity.
+
+Handle large amounts of data efficiently.
+
+Keep data safe with backups and security measures.
+
+Types of Databases:
+
+SQL: MySQL, PostgreSQL, SQL Server
+
+NoSQL: MongoDB, Firebase, Redis
