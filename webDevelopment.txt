@@ -78,3 +78,168 @@ Types of Databases:
 SQL: MySQL, PostgreSQL, SQL Server
 
 NoSQL: MongoDB, Firebase, Redis
+-------------------------------------
+
+ Explained in Detail .NET Stack Tools
+
+1. SQL Server (Database Layer)
+
+SQL Server is a Relational Database Management System (RDBMS) created by Microsoft.
+It is used to store, manage, and organize your application data.
+
+ What SQL Server does:
+
+Stores data in tables (rows & columns)
+
+Ensures data security (logins, roles, encryption)
+
+Supports transactions (ACID)
+
+Handles large-scale data efficiently
+
+Provides SQL language to query and manipulate data
+
+ Why it is important:
+
+Every modern application needs a secure and reliable place to store data.
+SQL Server is optimized for .NET applications and integrates smoothly with C# through EF Core.
+
+2. C# (Programming Language)
+
+C# (C-Sharp) is the primary programming language of .NET.
+It is an object-oriented, strongly typed, and modern language.
+
+What C# is used for:
+
+Writing backend logic (APIs, services)
+
+Creating classes, methods, and business rules
+
+Connecting with databases
+
+Building desktop, mobile, and web apps
+
+ Key features:
+
+Object-Oriented Programming (OOP)
+
+Strong type checking (reduces errors)
+
+Supports modern features like:
+
+async/await
+
+LINQ
+
+Lambda expressions
+
+Generics
+
+Why C# matters:
+
+It is the core language that ties all other .NET technologies together.
+
+3. EF Core (Object–Relational Mapping - ORM Tool)
+
+EF Core (Entity Framework Core) is a data access framework that helps you interact with SQL Server using C# instead of SQL queries.
+
+ What EF Core does:
+
+Maps C# classes to database tables (ORM)
+
+Allows you to interact with the database using objects
+
+Automatically generates SQL queries
+
+Handles CRUD operations easily:
+
+Create
+
+Read
+
+Update
+
+Delete
+
+Example:
+
+Instead of writing SQL like:
+
+SELECT * FROM Students WHERE Age > 20;
+
+
+You write in C#:
+
+var students = context.Students.Where(s => s.Age > 20).ToList();
+
+ Why EF Core is powerful:
+
+Reduces the amount of SQL code
+
+Easier to maintain
+
+Provides migrations to update database structure
+
+4. LINQ (Language Integrated Query)
+
+LINQ is a feature in C# that allows you to write query-like syntax directly in your code.
+
+ What LINQ can query:
+
+Databases (with EF Core)
+
+Lists and collections
+
+XML files
+
+JSON data
+
+Example LINQ query:
+var adults = people.Where(p => p.Age >= 18).ToList();
+
+Why LINQ is important:
+
+Makes data filtering easy
+
+Works perfectly with EF Core
+
+Reduces long loops and code complexity
+
+Think of LINQ as "SQL inside C#".
+
+5. Blazor (Frontend Web UI Framework)
+
+Blazor is a .NET framework for building interactive web applications using C# instead of JavaScript.
+
+ Types of Blazor:
+
+Blazor Server
+
+UI runs on the server
+
+Fast initial load
+
+Blazor WebAssembly
+
+Runs in the browser
+
+C# compiled to WebAssembly
+
+ What Blazor does:
+
+Creates interactive webpages (buttons, forms, components)
+
+Uses Razor components
+
+Supports reusable UI components
+
+Integrates easily with C# backend
+
+Why Blazor is useful:
+
+Full-stack development using only C# (no need for JavaScript)
+
+Easy to maintain and test
+
+Ideal for business applications and dashboards
+
