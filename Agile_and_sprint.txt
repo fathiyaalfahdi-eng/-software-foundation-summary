@@ -1,0 +1,135 @@
+1. What is a sprint? 
+ 
+
+A sprint is a short, fixed period of time in Agile development—usually lasting one to four weeks—during which a team works to complete a specific set of tasks or features from the project backlog. At the start of the sprint, the team plans what they can accomplish, and at the end, they deliver a potentially usable product increment. Sprints help teams focus, maintain steady progress, and regularly review and adapt their work based on feedback. 
+
+ 
+
+2. How long does a sprint usually last? 
+ 
+
+A sprint usually lasts between one to four weeks, depending on the project and team preferences. Most teams choose a two-week sprint because it provides a good balance between quick feedback and enough time to complete meaningful work. The goal is to have a consistent, short time frame that allows the team to plan, build, review, and improve continuously. 
+
+ 
+
+3. What are the main activities during a sprint? 
+ 
+
+During a sprint, the main activities include sprint planning, where the team decides what work to complete; daily stand-up meetings to track progress and address issues; development and testing of the selected features; review meetings to demonstrate completed work to stakeholders; and a retrospective to reflect on the sprint and identify improvements for the next one. 
+
+ 
+
+4. Why are sprints useful for development teams? 
+ 
+
+Sprints are useful for development teams because they break projects into manageable time periods, allowing teams to focus on specific goals and deliver working products regularly. This approach promotes flexibility, quick feedback, and continuous improvement, helping teams adapt to changes and maintain steady progress throughout the project. 
+
+ 
+
+5.Briefly explain what happens at the beginning and end of each Sprint. 
+ 
+
+At the beginning of each Sprint, the team holds a Sprint Planning meeting to decide what work will be done and how it will be completed, based on priorities from the product backlog. At the end of the Sprint, a Sprint Review is held to demonstrate the completed work to stakeholders, followed by a Sprint Retrospective where the team reflects on the process and identifies ways to improve in the next Sprint. 
+
+ 
+
+6. What benefit does the team gain from the annual meeting? 
+ 
+
+The team benefits from the annual meeting by reflecting on the past year’s achievements, challenges, and lessons learned. It helps align everyone on future goals, strengthen collaboration, and improve communication across departments. This meeting also boosts motivation and team spirit by celebrating successes and setting a clear direction for the upcoming year. 
+
+7. How does a Sprint help improve the quality of the final product? 
+ 
+
+A Sprint helps improve the quality of the final product by encouraging regular testing, feedback, and adjustments throughout the development process. Each Sprint includes review and testing phases that allow the team to identify and fix issues early, rather than waiting until the end. This continuous improvement approach ensures that the product evolves based on real feedback and meets high-quality standards by the final release. 
+
+ 
+
+8. What is the difference between a Sprint Review and a Sprint Retrospective? 
+ 
+
+A Sprint Review focuses on the product — it is held at the end of a sprint to review what was completed, demonstrate the new features, and gather feedback from stakeholders to plan future improvements. In contrast, a Sprint Retrospective focuses on the process and team — it allows the team to reflect on how the sprint went, discuss what worked well or didn’t, and identify ways to improve teamwork and efficiency in the next sprint. 
+
+ 
+
+9.In your opinion, what challenges might the team face during a Sprint, and how can they be overcome? 
+
+ 
+
+During a Sprint, a team might face challenges such as unclear goals, unexpected technical issues, or communication gaps. These can lead to delays or confusion about priorities. To overcome them, the team should maintain open communication through daily stand-ups, clarify goals during Sprint Planning, and collaborate closely to solve problems quickly. Regular feedback and flexibility also help the team stay aligned and adapt to any changes efficiently. 
+ 
+
+Scrum 
+
+Scrum is an Agile framework used to manage and deliver complex software projects efficiently through teamwork, flexibility, and continuous improvement. 
+
+Key Roles in Scrum: 
+
+Product Owner – Responsible for defining the product vision, managing the Product Backlog, and ensuring the team delivers value to the customer. 
+
+Scrum Master – Facilitates the Scrum process, removes obstacles, and ensures the team follows Agile principles and practices. 
+
+Development Team – A group of professionals who design, build, and test the product during each Sprint. 
+
+Key Events in Scrum: 
+
+Sprint – A time-boxed period (usually 2–4 weeks) where the team works to complete a set of tasks. 
+
+Daily Scrum – A short daily meeting where team members discuss progress, plans, and challenges. 
+
+Sprint Review – A meeting at the end of each Sprint to demonstrate completed work and gather feedback. 
+
+Sprint Retrospective – A session after the Sprint Review to reflect on what went well and how to improve in the next Sprint. 
+
+Elements Used in Scrum: 
+
+Product Backlog – A prioritized list of all features, enhancements, and fixes required in the product. 
+
+Sprint Backlog – A list of tasks selected from the Product Backlog to be completed in the current Sprint. 
+
+Increment – The working product or feature completed at the end of a Sprint, representing measurable progress. 
+
+Advantages of Using Scrum in Software Projects: 
+Scrum promotes collaboration, adaptability, and transparency. It allows teams to respond quickly to changing requirements, deliver high-quality products incrementally, and continuously improve through feedback and reflection. This results in faster delivery, better customer satisfaction, and more efficient use of resources. 
+ 
+
+1. What is the purpose of a Sprint in Scrum? 
+
+ 
+The purpose of a Sprint in Scrum is to create a usable and potentially shippable product increment within a fixed period of time. It allows the team to focus on a specific set of goals, deliver value quickly, and continuously improve through regular feedback and inspection. Each Sprint helps the team make steady progress toward the overall project objectives. 
+
+ 
+
+2. How does a Scrum Manager help the team? 
+ 
+
+A Scrum Manager (often called the Scrum Master) helps the team by guiding them in following Scrum principles and practices. They remove obstacles that might slow the team down, ensure smooth communication and collaboration, and protect the team from distractions. The Scrum Manager also helps the team improve their processes, stay focused on their goals, and work efficiently to deliver high-quality results each Sprint. 
+
+ 
+
+3. What is the importance of daily stand-up meetings? 
+ 
+
+Daily stand-up meetings, also called Daily Scrums, are important because they help the team stay aligned and focused. During these short meetings, each team member shares what they accomplished yesterday, what they plan to do today, and any challenges they are facing. This helps identify issues early, improves communication, and ensures everyone is working toward the same Sprint goal. It also keeps the project moving smoothly and promotes teamwork and accountability. 
+
+ 
+
+4. What is the difference between a Product Log and a Sprint Log? 
+
+ 
+
+The Product Log (also called the Product Backlog) is a complete list of all the features, functions, and requirements that need to be developed for the entire product. It is managed by the Product Owner and represents the long-term work to be done. 
+
+The Sprint Log (or Sprint Backlog) is a smaller, more focused list created from the Product Log for a single Sprint. It contains the specific tasks the Development Team commits to completing during that Sprint. 
+
+In short, the Product Log covers the whole project, while the Sprint Log focuses only on what will be done in the current Sprint. 
+
+ 
+
+5. How does Scrum help improve teamwork and communication? 
+
+ 
+
+Scrum helps improve teamwork and communication by encouraging regular collaboration and transparency among team members. Daily stand-up meetings allow everyone to share progress, discuss challenges, and align their efforts. The clear roles in Scrum—Product Owner, Scrum Master, and Development Team—ensure that responsibilities are well-defined and everyone understands their part. Regular reviews and retrospectives also give the team opportunities to reflect, give feedback, and continuously improve how they work together. 
+
+ 
