@@ -1,0 +1,22 @@
+Web Development
+
+Web Development is the process of building and maintaining websites and web applications that run on the internet. It includes everything from designing how a website looks to making sure it works properly behind the scenes.
+
+Here’s a simple breakdown:
+
+1. Frontend (Client-side)
+
+This is the part of the website users see and interact with.
+It includes layout, colors, images, buttons, and text.
+Common technologies: HTML, CSS, JavaScript.
+
+2. Backend (Server-side)
+
+This is the behind-the-scenes part that users don’t see.
+It handles data, authentication, server logic, and connections to databases.
+Technologies may include: Node.js, Python, PHP, Java, Ruby.
+
+3. Database
+
+Stores and manages data for the website or app.
+Examples: MySQL, MongoDB, PostgreSQL.
